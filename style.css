@@ -1,0 +1,59 @@
+body{
+    background-image: url("robo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    padding: 5%;
+}
+.form{
+    padding: 10%;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 1);
+    padding: 2%;
+    margin: 1%;
+}
+.input-img{
+    padding: 1%;
+}
+
+.submit{
+    padding: 2%;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.submit:hover{
+    padding: 2%;
+    /* From https://css.glass */
+background: rgba(54, 48, 48, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(16.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
